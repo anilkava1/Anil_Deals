@@ -6,7 +6,7 @@ const PRODUCT_LINKS = [
         url: "https://amzn.to/48dXsYe", 
         image: "https://m.media-amazon.com/images/I/81YXtph65uL._SL1500_.jpg",
         title: "LG 139 cm (55 inches) OLED B2 AI Series 4K Ultra HD (3840 x 2160) Smart webOS OLED TV 55B2PSA (Black)",
-        price: "₹1,16,490.00 with 21 percent savings-21% M.R.P.: ₹1,47,490.00",
+        price: "1,16,490.00 with 21 percent savings-21% M.R.P.: ₹1,47,490.00",
         review: "Maine LG OLED B2 55-inch 4K Smart TV ko home setup me use kiya aur honestly yeh ek proper premium viewing experience deta hai, lekin kuch trade-offs ke saath. Sabse pehle picture quality next level hai—OLED panel ki wajah se blacks bilkul deep aur colors kaafi vibrant lagte hain, especially movies aur OTT content dekhte waqt cinematic feel aata hai. 120Hz refresh rate hone ki wajah se sports aur gaming me motion smooth rehta hai, aur PS5/Xbox pe gaming kaafi solid experience deta hai . Smart features bhi kaafi smooth lage—webOS fast hai, apps easily access ho jati hain aur overall UI clean feel deta hai. Design bhi slim aur premium hai, wall mount pe kaafi classy lagta hai. Lekin honestly brightness thodi limitation hai—bahut bright room me kabhi-kabhi screen utni punchy nahi lagti jitni QLED TVs me hoti hai . Sound output bhi average hai, matlab is price pe ek soundbar lena better rahega. Overall ₹1.1–1.2 lakh ke range me yeh TV un logon ke liye best hai jo movies, OTT aur dark-room viewing enjoy karte hain. Agar aapko best picture quality chahiye toh yeh solid choice hai, lekin agar aap bright room me use karte ho ya loud audio chahiye toh thoda compromise feel ho sakta hai.",
         category: "ELECTRONICS" // Screenshot ke hisab se
     },
@@ -14,7 +14,7 @@ const PRODUCT_LINKS = [
         url: "https://amzn.to/3Qp9B6s", 
         image: "https://m.media-amazon.com/images/I/818vnFP09yL._SL1500_.jpg",
         title: "STCL 164 cm (65 inches) 4K UHD Smart QD-Mini LED Google TV 65Q6C",
-        price: "₹67,990.00 with 60 percent savings-60%  M.R.P.: ₹1,69,990.",
+        price: "67,990.00 with 60 percent savings-60%  M.R.P.: ₹1,69,990.",
         review: "4.8TCL 65Q6CS Mini LED Google TV₹61,990•Mini LED technology enhances contrast and color accuracy.TCL C6K QD-Mini LED 4K TV₹72,990•High-quality 4K resolution with QD-Mini LED for sharp images.4.8TCL 65-inch 4K UHD Smart Google TV₹66,350•Large 65-inch 4K UHD screen with smart Google TV features.4.8 Maine TCL 65Q6C QD-Mini LED 4K Google TV ko kuch time use kiya aur honestly ₹65–70K ke budget me yeh ek powerful value-for-money TV laga. Sabse pehle picture quality ne impress kiya—QD Mini LED panel ki wajah se brightness kaafi high hai aur colors bhi kaafi vibrant dikhte hain, especially HDR content me details clear aati hain. Dark scenes me bhi blacks kaafi achhe handle karta hai (OLED jaisa perfect nahi, but kaafi close feel deta hai) . 144Hz refresh rate hone ki wajah se sports aur gaming me smoothness noticeable hai, aur console gaming ke liye bhi kaafi solid experience milta hai. Google TV interface smooth hai, apps easily chalti hain aur voice control bhi kaam ka hai. Sound bhi average se better laga—Onkyo speakers hone ki wajah se normal TV se thoda powerful feel aata hai, lekin full cinematic experience ke liye soundbar better rahega. Bright rooms me iska performance strong hai",
         category: "ELECTRONICS"
     },
@@ -22,7 +22,7 @@ const PRODUCT_LINKS = [
         url: "https://amzn.to/4mIrlpo", 
         image: "https://m.media-amazon.com/images/I/61kqDPQbHnL._SY741_.jpg",
         title: "Tshirt for Men | Men Polo t-Shirt Shirt | Solid Cotton Rich Polo T Shirt | Collar Tshirts | Half Sleeves | Plain-Regular Fit",
-        price: "₹499.00 with 55 percent savings-55%  M.R.P.: ₹1,099",
+        price: "499.00 with 55 percent savings-55%  M.R.P.: ₹1,099",
         review: "Maine is type ka ₹400–₹500 range wala polo t-shirt daily wear aur casual office use me try kiya aur honestly yeh ek decent “smart casual” option laga. Sabse pehle iska collar design simple t-shirt se thoda upgrade feel deta hai—matlab bina effort ke thoda classy look aa jata hai, jo college, office ya outing sab jagah chal jata hai. Fabric usually cotton-rich ya cotton blend hota hai, toh pehenne me comfortable rehta hai, lekin pure cotton jaisa thick ya premium feel har piece me nahi milta. Fit generally regular hota hai—na zyada tight na loose—lekin kabhi-kabhi sizing thodi inconsistent hoti hai, isliye order karte time size chart dekhna better rahega. Daily use me kaafi practical hai, lekin honestly durability average hi hoti hai—2–3 washes ke baad thoda color dull ya fabric halka feel hone lagta hai, jo is budget range me common hai. Market me ₹300–₹500 ke beech kaafi polo options mil jate hain jo similar quality dete hain . Overall ₹499 me yeh ek “safe choice” hai—agar aapko budget me thoda stylish aur clean look chahiye toh le sakte ho, bas premium fabric ya long-lasting quality expect mat karna.",
         category: "FASHION"
     },
