@@ -22,7 +22,7 @@ const PRODUCT_LINKS = [
         url: "https://amzn.to/4mIrlpo", 
         image: "https://m.media-amazon.com/images/I/61kqDPQbHnL._SY741_.jpg",
         title: "Tshirt for Men | Men Polo t-Shirt Shirt | Solid Cotton Rich Polo T Shirt | Collar Tshirts | Half Sleeves | Plain-Regular Fit",
-        price: "499",
+        price: "₹499.00 with 55 percent savings-55%  M.R.P.: ₹1,099",
         review: "Maine is type ka ₹400–₹500 range wala polo t-shirt daily wear aur casual office use me try kiya aur honestly yeh ek decent “smart casual” option laga. Sabse pehle iska collar design simple t-shirt se thoda upgrade feel deta hai—matlab bina effort ke thoda classy look aa jata hai, jo college, office ya outing sab jagah chal jata hai. Fabric usually cotton-rich ya cotton blend hota hai, toh pehenne me comfortable rehta hai, lekin pure cotton jaisa thick ya premium feel har piece me nahi milta. Fit generally regular hota hai—na zyada tight na loose—lekin kabhi-kabhi sizing thodi inconsistent hoti hai, isliye order karte time size chart dekhna better rahega. Daily use me kaafi practical hai, lekin honestly durability average hi hoti hai—2–3 washes ke baad thoda color dull ya fabric halka feel hone lagta hai, jo is budget range me common hai. Market me ₹300–₹500 ke beech kaafi polo options mil jate hain jo similar quality dete hain . Overall ₹499 me yeh ek “safe choice” hai—agar aapko budget me thoda stylish aur clean look chahiye toh le sakte ho, bas premium fabric ya long-lasting quality expect mat karna.",
         category: "FASHION"
     },
