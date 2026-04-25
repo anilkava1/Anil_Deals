@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="oSSaucy0j23fx0ZwEJ62vG0xr2v8aOD9OY2PmCk24aA" />
+    <title>AnilDeals | Saste Deals, Real Reviews aur Best Electronic Offers</title>
+    <meta name="description" content="AnilDeals par paaye sabse saste iPhone, electronics aur fashion deals. Real customer reviews ke saath bilkul trust ke saath shopping karein.">
+    <meta name="keywords" content="AnilDeals, women cloth, men cloth, sabse sasta saman, google, online shopping deals, sasta iphone, electronic offers, best fashion deals, affiliate marketing india">
+    <title>AnilDeals - Best Affiliate Deals</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Custom scrollbar for horizontal categories */
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        
+        /* Smooth transitions */
+        .product-card { transition: all 0.3s ease; }
+        
+        /* Loader Animation */
+        #loader {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #fb641b;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    </style>
+</head>
+<h1 class="text-center font-bold">Latest Online Shopping Deals aur Saste Products</h1>
+<body class="bg-gray-50 flex flex-col min-h-screen">
+
+    <header class="bg-blue-600 text-white sticky top-0 z-50 shadow-md">
+        <div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+            <h1 class="text-2xl font-black tracking-tighter cursor-pointer" onclick="location.reload()">
+                Anil<span class="text-yellow-400">Deals</span>
+            </h1>
+             <img style = "width:120px; height:120px;"src="AK-HD-Result.png" alt="Anil Deals Logo" class="h-8 w-auto">
+            
+            <div class="flex items-center gap-4">
+                <div class="flex items-center gap-4">
+                <button id="mainLoginBtn" onclick="currentUser ? openProfile() : openLoginModal()" 
+                class="bg-white text-[#2874f0] px-5 py-1.5 rounded shadow-sm font-bold text-sm flex items-center gap-2 transition hover:bg-yellow-200">
+                <span id="btnText">Login</span>
+            </button>
+        </div>
+                <!-- <button onclick="openProfile()" class="text-sm font-bold bg-white text-blue-600 px-4 py-1.5 rounded-sm hover:bg-gray-100">Login</button> -->
+                <i class="fa-solid fa-cart-shopping text-xl cursor-pointer"></i>
+            </div>
+        </div>
+    </header>
+
+    
+
+    <nav class="bg-white border-b sticky top-16 z-40 shadow-sm overflow-x-auto no-scrollbar">
+        <div class="max-w-7xl mx-auto flex items-center h-12 px-4 space-x-8 text-sm font-bold  text-gray-600 uppercase tracking-wider">
+            <a href="javascript:void(0)" onclick="filterProducts('ALL PRODUCTS')" class="nav-link hover:text-yellow-600">ALL PRODUCTS</a>
+            <a href="javascript:void(0)" onclick="filterProducts('ELECTRONICS')" class="nav-link hover:text-yellow-600">ELECTRONICS</a>
+            <a  href="javascript:void(0)" onclick="filterProducts('FASHION')" class="nav-link hover:text-yellow-600">FASHION</a>
+            <a href="javascript:void(0)" onclick="filterProducts('HOME & KITCHEN')" class="nav-link hover:text-yellow-600">HOME & KITCHEN</a>
+            
+            <!-- <span class="cursor-pointer hover:text-blue-600 whitespace-nowrap border-b-2 border-transparent hover:border-blue-600 py-3" onclick="filterCategory('all')">All Products</span>
+            <span class="cursor-pointer hover:text-blue-600 whitespace-nowrap border-b-2 border-transparent hover:border-blue-600 py-3" onclick="filterCategory('electronics')">Electronics</span>
+            <span class="cursor-pointer hover:text-blue-600 whitespace-nowrap border-b-2 border-transparent hover:border-blue-600 py-3" onclick="filterCategory('fashion')">Fashion</span>
+            <span class="cursor-pointer hover:text-blue-600 whitespace-nowrap border-b-2 border-transparent hover:border-blue-600 py-3" onclick="filterCategory('home')">Home & Kitchen</span> -->
+        </div>
+    </nav>
+
+    
+    
+    <div id="loginModal" class="hidden fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
+        <div class="bg-white rounded-lg p-6 w-full max-w-sm shadow-2xl">
+            <h2 class="text-xl font-bold mb-4 text-[#2874f0]">Bhai Login Karo</h2>
+            <div class="space-y-3">
+                <input type="text" id="regName" placeholder="Apna Naam" class="w-full p-2 border rounded">
+                <input type="email" id="regEmail" placeholder="Email ID" class="w-full p-2 border rounded">
+                <input type="password" id="regPass" placeholder="Password" class="w-full p-2 border rounded">
+                
+                <button onclick="handleLogin(
+                    document.getElementById('regName').value, 
+                    document.getElementById('regEmail').value, 
+                    document.getElementById('regPass').value
+                    )"
+                    class="w-full bg-[#fb641b] text-white py-2 font-bold rounded uppercase">
+                    Login / Register
+            </button>
+            
+            <button onclick="closeLoginModal()" class="w-full text-gray-500 text-sm mt-2">Baad mein karunga</button>
+        </div>
+    </div>
+</div>
+
+
+    <div id="profileModal" class="hidden fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
+        <div class="bg-white rounded-lg p-6 w-full max-w-sm shadow-2xl text-center">
+            <div class="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span class="text-2xl text-blue-600 font-bold">👤</span>
+            </div>
+            <h2 class="text-xl font-bold text-gray-800" id="profileName">Guest User</h2>
+            <p class="text-gray-500 text-sm mb-4">Aapka swagat hai Anil Deals par!</p>
+        
+        <div class="bg-gray-50 p-4 rounded-md mb-6">
+            <p class="text-xs uppercase text-gray-400 font-bold">Total Purchases</p>
+            <p class="text-3xl font-black text-[#2874f0]" id="buyCount">0</p>
+        </div>
+
+        <div class="flex flex-col gap-2">
+            <button onclick="logout()" class="bg-red-500 text-white py-2 rounded font-bold">LOGOUT</button>
+            <button onclick="closeProfile()" class="text-gray-500 text-sm py-2">Close</button>
+        </div>
+    </div>
+</div>
+
+    <div class="flex items-center gap-4">
+        <button id="mainLoginBtn" onclick="currentUser ? openProfile() : openLoginModal()" 
+        class="bg-white text-[#2874f0] px-4 py-1 rounded font-bold text-sm">
+        
+    </button>
+</div>
+
+    <div class="max-w-7xl mx-auto w-full flex flex-col md:flex-row gap-6 p-4 flex-grow">
+        <aside class="hidden md:block w-72 flex-shrink-0">
+            <div class="sticky top-32 space-y-4">
+                <div class="bg-white border border-gray-200 rounded-sm p-2 shadow-sm">
+                    <p class="text-[10px] text-gray-400 text-center mb-1 uppercase font-bold tracking-widest">Advertisement</p>
+                    <div class="w-full h-[500px] bg-gray-50 flex items-center justify-center border-2 border-dashed border-gray-100 rounded">
+                        <span class="text-gray-300 text-center px-4 italic text-sm">
+                            <script>
+                            atOptions = {
+                                'key' : 'f913ad1abf8b0262479b5dac45e1fbc3',
+                                'format' : 'iframe',
+                                'height' : 250,
+                                'width' : 300,
+                                'params' : {}
+                                };
+                                </script>
+                                <script src="https://www.highperformanceformat.com/f913ad1abf8b0262479b5dac45e1fbc3/invoke.js"></script>
+                            </span>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-gray-200 rounded-sm p-4 shadow-sm">
+                    <h3 class="text-xs font-black text-gray-400 uppercase mb-3">
+                        <a src = "">Connect With Us</a> </h3>
+                    <div class="space-y-3">
+                        <a href="#" class="flex items-center gap-3 text-sm font-bold text-gray-700 hover:text-blue-600">
+                            <i class="fa-brands fa-telegram text-blue-500 text-lg" ></i> Join Telegram
+                        </a>
+                        <a href="#" class="flex items-center gap-3 text-sm font-bold text-gray-700 hover:text-pink-600">
+                            <i class="fa-brands fa-instagram text-pink-500 text-lg"></i> Instagram
+                        </a>
+                        <p class="text-white-500 text-lg font-bold hover:text-yellow-600 text-sm italic" style="font-size : 1rem; display: flex; justify-content: center;">Saste daam par, real customer reviews ke saath – bilkul trust ke saath shopping karein.</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <main class="flex-1">
+            <div class="relative mb-6">
+                <i class="fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-gray-400"></i>
+                <input type="text" id="searchInput" oninput="searchProducts(this.value)" 
+                    placeholder="Search for products, brands and more..." 
+                    class="w-full pl-12 pr-4 py-3 bg-white border border-gray-200 rounded-sm shadow-sm focus:outline-none focus:border-blue-500 transition-all">
+            </div>
+
+            <div class="flex items-center justify-between mb-4 border-b pb-2 border-gray-200">
+                <h2 class="text-lg font-bold text-gray-800 uppercase tracking-tight">Top Recommended Deals</h2>
+                <div id="loader" style="display: none;"></div>
+            </div>
+
+            <div id="productGrid" class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4">
+                </div>
+        </main>
+    </div>
+
+    <footer class="bg-gray-900 text-white mt-12 py-10 w-full">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="text-center md:text-left">
+                <h2 class="text-2xl font-black text-blue-400 mb-2">AnilDeals</h2>
+                <p class="text-gray-300 text-sm italic hover:text-yellow-300">Saste daam par, real customer reviews ke saath – bilkul trust ke saath shopping karein.</p>
+            </div>
+            <div class="text-center">
+                <h3 class="text-xs font-bold text-gray-500 uppercase tracking-widest mb-4">Quick Links</h3>
+                <div class="flex flex-col gap-2 text-sm font-medium">
+                    <a href="#" class="hover:text-blue-400 transition">About Us</a>
+                    <a href="#" class="hover:text-blue-400 transition">Contact Us</a>
+                    <a href="#" class="hover:text-blue-400 transition">Privacy Policy</a>
+                </div>
+            </div>
+            <div class="text-center md:text-right">
+                <h3 class="text-xs font-bold text-gray-500 uppercase tracking-widest mb-4">Follow Me</h3>
+                <div class="flex justify-center md:justify-end gap-6 text-xl">
+                    <a href="#" class="hover:text-blue-400"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="hover:text-pink-400"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="hover:text-red-500"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-gray-800 mt-10 pt-6 text-center text-gray-500 text-xs font-medium">
+            © 2026 AnilDeals | Designed for the Community
+        </div>
+    </footer>
+
+    <div id="profileModal" class="fixed inset-0 bg-black/50 hidden z-[100] flex items-center justify-center p-4">
+        <div class="bg-white w-full max-w-sm rounded-sm p-6 shadow-2xl">
+            <div class="flex justify-between items-center mb-6">
+                <h3 class="text-xl font-bold">Login</h3>
+                <button onclick="closeProfile()" class="text-gray-400 hover:text-black text-2xl">&times;</button>
+            </div>
+            <input type="password" placeholder="Enter Admin Password" class="w-full p-3 border rounded-sm mb-4 outline-none focus:border-blue-500">
+            <button class="w-full bg-blue-600 text-white font-bold py-3 rounded-sm hover:bg-blue-700">SUBMIT</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

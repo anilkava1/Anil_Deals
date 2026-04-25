@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap ka path yahan dena zaroori hai
+Sitemap: https://mrweb12-anildeals.hf.space/sitemap.xml

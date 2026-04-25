@@ -1,0 +1,30 @@
+body {
+    background-color: #f1f3f6;
+}
+
+.product-card {
+    transition: box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.product-card:hover img {
+    transform: scale(1.05);
+}
+
+.line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.italic-review {
+    font-size: 11px;
+    line-height: 1.4;
+    color: #666;
+    border-top: 1px dashed #eee;
+    padding-top: 8px;
+}
