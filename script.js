@@ -349,7 +349,7 @@ function logout() {
 // ==========================================
 function handleBuyClick(prodUrl) {
     if (!currentUser) {
-        alert("🚨 Bhai ruko! Pehle Login karo, uske baad hi link khulega.");
+        alert("🚨 ruko! Pehle Login karo, uske baad hi link khulega.");
         openLoginModal(); 
         return; // Yahan se code ruk jayega, link nahi khulega
     }
