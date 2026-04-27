@@ -397,7 +397,7 @@ function filterProducts(categoryName) {
                         <span class="text-xl font-black text-black">₹${prod.price}</span>
                     </div>
                     <div class="border-t border-dashed border-gray-100 pt-3 mb-4 text-left text-[11px] text-gray-600">
-                        <strong class="text-[#2874f0] uppercase italic">Bhai Ka Review:</strong><br>
+                        <strong class="text-[#2874f0] uppercase italic">Real Review:</strong><br>
                         ${prod.review}
                     </div>
                 </div>
