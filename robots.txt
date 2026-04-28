@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemap ka path yahan dena zaroori hai
-Sitemap: https://mrweb12-anildeals.hf.space/sitemap.xml
+Sitemap: https://anilkava1.github.io/Anil_Deals/sitemap.xml
