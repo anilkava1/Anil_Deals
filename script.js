@@ -8,6 +8,31 @@ const PRODUCT_LINKS = [
         title: "Men Cotton Blend Regular T'shirt",
         price: "129 / Delivery ₹61",
         review: "Maine is ₹129–₹180 range wale men’s cotton blend t-shirt ko casual daily wear me try kiya aur honestly itna low price dekh ke expectations kam thi, lekin basic use ke liye yeh theek-thaak nikla. Sabse pehle iska fabric cotton blend hai, toh pehenne me halka aur comfortable lagta hai, especially garmi me daily use ke liye sahi hai, lekin quality obviously thin side pe hai aur premium feel bilkul nahi aata. Fit normal hai (regular type), lekin sizing thodi inconsistent ho sakti hai—M aur L me zyada difference feel nahi hota kabhi-kabhi..",
+        category: "FASHION" // Screenshot ke hisab se ----
+    },
+    { 
+        url: "https://affiliate.meesho.com/collection/MzIxNjYxMTo6Ojo6Om5vcm1hbA==", 
+        image: "https://images.meesho.com/images/products/293751425/lhqua_512.avif?width=512",
+        title: "Men Cotton Blend Regular T'shirt",
+        price: "153 / Delivery ₹Free / Free",
+        review: "Maine ₹150–₹160 range ka Gym Stringer Vest (Racer Y Back) gym aur home workout ke liye use kiya aur honestly budget ke hisaab se yeh kaafi practical nikla. Sabse pehle iska polycotton fabric lightweight aur breathable hai, toh workout ke time body ko airy feel deta hai aur sweating me zyada heavy nahi lagta. Racerback design ki wajah se movement bilkul free feel hoti hai—especially chest, shoulders aur back workouts me kaafi comfortable lagta hai. Fit thoda body-hugging hota hai, jo gym look ke liye sahi hai, lekin agar aap loose pasand karte ho toh ek size bada lena better rahega. White color clean aur classic lagta hai, lekin obviously jaldi ganda bhi hota hai aur stains ka dhyan rakhna padta hai. Stitching aur fabric quality decent hai is price pe, lekin honestly heavy use ya rough washing me thoda loose ya shape change ho sakta hai. Overall ₹153 me yeh ek “value-for-money gym vest” hai—daily workout, beginners ya budget buyers ke liye perfect hai, bas premium quality ya long-term durability expect mat karna...",
+        category: "FASHION" // Screenshot ke hisab se
+    },
+    { 
+        url: "https://affiliate.meesho.com/collection/MzIxNjcyNTo6Ojo6Om5vcm1hbA==", 
+        image: "https://images.meesho.com/images/products/35730207/0ipse_512.avif?width=512",
+        title: "Men Cotton Blend Regular T'shirt",
+        price: "199 / Delivery ₹61",
+        review: "Maine ₹199 wala hooded sleeveless zipper t-shirt (Tees Collection) ko gym aur casual outings dono me use kiya aur honestly budget ke hisaab se yeh kaafi stylish aur functional laga. Sabse pehle iska hooded + sleeveless design kaafi unique vibe deta hai—thoda sporty aur streetwear mix look aata hai, jo gym ya casual hangout dono me chal jata hai. Fabric cotton blend hai, toh pehenne me comfortable lagta hai, lekin thoda thin side pe hai, matlab heavy ya premium feel expect mat karo. Zipper front kaafi useful lagta hai—wear/remove karna easy ho jata hai aur styling me bhi variation milta hai. Fit generally slim side pe hota hai, jo body shape ko highlight karta hai, lekin agar aapko loose fit chahiye toh ek size up lena better rahega. Workout ke time airflow achha milta hai kyunki sleeves nahi hain, lekin intense sweating me fabric thoda chipak sakta hai. Stitching aur finishing average hai—2–3 washes ke baad thoda loose ya fade feel ho sakta hai. Overall ₹199 me yeh ek “stylish gym + casual hybrid wear” hai—agar aapko low budget me trendy aur thoda different look chahiye toh sahi choice hai, bas durability aur premium quality expect mat karna...",
+        category: "FASHION" // Screenshot ke hisab se
+    },
+    { 
+        url: "https://affiliate.meesho.com/collection/MzIxNjc5NTo6Ojo6Om5vcm1hbA==", 
+        image: "https://images.meesho.com/images/products/539368971/jbxf7_512.avif?width=512",
+        image: "",
+        title: "Kurtis",
+        price: "275 / Delivery ₹Free / Free",
+        review: "Maine ₹275 wali Jaipuri rayon short kurti ko daily wear aur casual outings me try kiya aur honestly budget ke hisaab se yeh kaafi stylish aur comfortable option laga. Sabse pehle iska rayon fabric kaafi soft aur breathable hai, garmi ke season me pehenne me light aur airy feel deta hai. Embroidery aur Jaipuri design dekhne me kaafi attractive lagta hai—simple jeans ya leggings ke saath easily pair ho jata hai aur ek decent ethnic-casual look mil jata hai. Fit tunic style me hai, jo na zyada tight hota hai na loose, daily use ke liye comfortable rehta hai. Lekin honestly quality thodi hit-or-miss ho sakti hai—kuch pieces me stitching ya embroidery finishing perfect nahi hoti, aur 2–3 washes ke baad color halka fade ho sakta hai. Fabric bhi thoda thin side pe hai, toh durability average hi lagegi. Overall ₹275 me yeh ek “value-for-money, stylish daily wear kurti” hai—agar aapko low budget me trendy aur comfortable outfit chahiye toh bilkul sahi hai, bas long-lasting ya premium quality expect mat karna...",
         category: "FASHION" // Screenshot ke hisab se
     },
     { 
@@ -301,7 +326,27 @@ const PRODUCT_LINKS = [
         review: "Agar aapko best camera, clean Android experience aur AI features chahiye, toh Pixel 10 Pro XL ek top-tier choice hai. Lekin agar aap gaming, raw performance aur fast charging chahte ho, toh is price me OnePlus ya Samsung better value de sakte hain.....",
         category: "ELECTRONICS"
     },
-
+    {   url: "https://amzn.to/42GPuDy",
+        image: "https://m.media-amazon.com/images/I/61xWsb300LL._SY606_.jpg",
+        title: "JUARI BE A GENTLEMAN Men's Sleeveless Tank Top – Premium Cotton Blend Muscle Fit Gym Vest | Casual Summer Workout Shirt | Breathable & Lightweight Fitness Wear for Bodybuilding, Running & Daily Use",
+        price: "₹292.00 with 71 percent savings-71% ₹292 M.R.P.: ₹999",
+        review: "Maine JUARI BE A GENTLEMAN Sleeveless Tank Top ko gym aur daily wear dono me use kiya aur honestly ₹250–₹300 ke range me yeh ek “solid budget gym vest” feel deta hai. Sabse pehle iska cotton blend fabric kaafi soft aur breathable hai, workout ke time sweating me bhi body ko airy feel deta hai aur movement bilkul free rehti hai . Muscle fit design body ko thoda shape deta hai, especially chest aur shoulders highlight hote hain, jo gym look ke liye plus point hai. Lightweight hone ki wajah se running, workout ya ghar pe casual wear sab me comfortable lagta hai. Lekin honestly quality mid-range hi hai—fabric thoda thin side pe hai aur regular washing ke baad thoda loose ya fade feel ho sakta hai. Stitching decent hai but premium brands jaisa long-lasting finish nahi milta. Fit thoda tight side pe hota hai, toh agar loose pasand hai toh size up lena better rahega. Overall ₹292 me yeh ek “value-for-money gym vest” hai—beginners, daily workout ya budget buyers ke liye perfect hai, bas high durability ya premium feel expect mat karna......",
+        category: "FASHION" //new
+    },
+    {   url: "https://amzn.to/48U0bX9",
+        image: "https://m.media-amazon.com/images/I/61jO3GkpYML._SX466_.jpg",
+        title: "Men’s Polyester fabric solid Printed Co-Ord Set for men Floral Print Short Sleeve Shirt with Drawstring Shorts Casual Summer Wear, Beach & Vacation Outfit for Men",
+        price: "₹499.00 with 50 percent savings-50% ₹499 M.R.P.: ₹999",
+        review: "Agar aapko best camera, clean Android experience aur AI features chahiye, toh Pixel 10 Pro XL ek top-tier choice hai. Lekin agar aap gaming, raw performance aur fast charging chahte ho, toh is price me OnePlus ya Samsung better value de sakte hain.....",
+        category: "FASHION" //2
+    },
+    {   url: "https://amzn.to/4tcu4Js",
+        image: "https://m.media-amazon.com/images/I/81ysjTMD4BL._SY741_.jpg",
+        title: "Lymio Jeans for Men || Denim for Man || Jeans Pant (13-14)",
+        price: "749.00 with 85 percent savings-85% ₹749 M.R.P.: ₹4,999",
+        review: "Maine Lymio Jeans (13-14) ko daily wear aur casual outings ke liye use kiya aur honestly ₹700–₹800 ke budget me yeh ek “budget stylish jeans” type product laga. Sabse pehle iska look kaafi trendy hai—slightly baggy/regular fit hone ki wajah se streetwear vibe milti hai aur t-shirts ya oversized outfits ke saath easily match ho jata hai. Denim material decent lagta hai starting me aur stitching bhi theek-thaak hai, jo normal use ke liye enough hai . Comfort wise yeh average hai—na bahut tight, na super stretchable, toh daily use me theek lagta hai lekin long hours ya garmi me thoda heavy feel ho sakta hai (typical denim issue). Sabse bada drawback quality consistency hai—kuch pieces me fabric thoda hard ya thin feel hota hai, aur 3–4 washes ke baad color fade ya fitting loose hone lagti hai, jo is price segment me common hai. Price history bhi show karta hai ki yeh jeans usually ₹600–₹800 range me fluctuate karti hai, matlab yeh typical budget category product hai......",
+        category: "FASHION" //3
+    },
     // ... baaki products yahan {url, image, title, price, review, category} format mein add karo
 ];
 
@@ -357,7 +402,7 @@ function logout() {
 // ==========================================
 function handleBuyClick(prodUrl) {
     if (!currentUser) {
-        alert("🚨 ruko! Pehle Login karo, uske baad hi link khulega.");
+        alert("🚨 Please wait—kindly log in first. The link will only open after you have logged in.");
         openLoginModal(); 
         return; // Yahan se code ruk jayega, link nahi khulega
     }
