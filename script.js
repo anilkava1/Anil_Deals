@@ -3,6 +3,14 @@
 // ==========================================
 const PRODUCT_LINKS = [
     { 
+        url: "https://affiliate.meesho.com/collection/MzIxMzk4ODo6Ojo6Om5vcm1hbA==", 
+        image: "https://images.meesho.com/images/products/735108965/ererb_512.avif?width=512",
+        title: "Men Cotton Blend Regular T'shirt",
+        price: "129 / Delivery ₹61",
+        review: "Maine is ₹129–₹180 range wale men’s cotton blend t-shirt ko casual daily wear me try kiya aur honestly itna low price dekh ke expectations kam thi, lekin basic use ke liye yeh theek-thaak nikla. Sabse pehle iska fabric cotton blend hai, toh pehenne me halka aur comfortable lagta hai, especially garmi me daily use ke liye sahi hai, lekin quality obviously thin side pe hai aur premium feel bilkul nahi aata. Fit normal hai (regular type), lekin sizing thodi inconsistent ho sakti hai—M aur L me zyada difference feel nahi hota kabhi-kabhi..",
+        category: "FASHION" // Screenshot ke hisab se
+    },
+    { 
         url: "https://amzn.to/48dXsYe", 
         image: "https://m.media-amazon.com/images/I/81YXtph65uL._SL1500_.jpg",
         title: "LG 139 cm (55 inches) OLED B2 AI Series 4K Ultra HD (3840 x 2160) Smart webOS OLED TV 55B2PSA (Black)",
